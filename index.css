@@ -406,7 +406,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/headerBG.jpg');
+        url('./images/headerBG2.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -491,6 +491,15 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__image-box {
     margin-bottom: var(--gutter-normal);
+}
+
+.work__image {
+    transition: all .3s;
+}
+}
+
+.work__image:hover {
+    transform: scale(1.1);
 }
 
 @media(min-width: 901px) {
