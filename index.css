@@ -590,6 +590,11 @@ body:not(.user-is-tabbing) a:focus {
 
 .footer__social-link-item:not(:last-of-type) {
     margin-right: var(--gutter-small);
+    transition: all .3s;
+}
+
+.footer__social-link-item:hover {
+    transform: scale(1.2);
 }
 
 .footer__social-image {
