@@ -566,6 +566,7 @@ body:not(.user-is-tabbing) a:focus {
         flex: 0 0 35%;
         display: inline-block;
         width: 100%;
+        text-align: justify;
     }
     
     .about__photo-container {
