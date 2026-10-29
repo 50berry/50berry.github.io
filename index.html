@@ -1,397 +1,195 @@
-<!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/berrylogo.png" />
-
-  <!-- Put your site title here -->
-  <title>
-    Fabian Weiß | Game Developer Portfolio
-  </title>
-
-  <meta name="description" content="Independent Game Developer and Unreal Engine Enthusiast with a passion for Multiplayer Games">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Fabian Weiß, Game Development, Unreal Engine, Unity, Game Design, Game Programmer, Network Programmer, Artist" />
-  <link rel="stylesheet" href="index.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101312">
+  <meta name="description" content="Fabian Weiß — game developer focused on Unreal Engine, gameplay systems, combat, movement, multiplayer-ready prototypes, and reusable game-development tools.">
+  <meta name="keywords" content="Fabian Weiß, Unreal Engine, game development, gameplay programming, combat systems, multiplayer, game prototyping, UMG">
+  <title>Fabian Weiß — Game Development & Technical Projects</title>
+  <link rel="icon" type="image/png" href="./images/berrylogo.png">
+  <link rel="stylesheet" href="./index.css">
 </head>
-
 <body>
-
-  <!-- ***** Header ***** -->
-
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
-  <!--    <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="shell nav-wrap">
+      <a class="wordmark" href="#top" aria-label="Fabian Weiß home">FW<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Projects</a>
+        <a href="#approach">Approach</a>
+        <a href="#about">About</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
       </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Fabian Weiß</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>Independent Game Developer and Unreal Engine Enthusiast with a passion for Multiplayer Games.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-      </div>
     </div>
   </header>
 
-  <main role="main">
+  <main id="main">
+    <section class="intro shell">
+      <div class="intro-copy">
+        <p class="eyebrow"><span class="status-dot"></span> GAME DEVELOPMENT · UNREAL ENGINE</p>
+        <h1>Building gameplay<br>that <em>feels right.</em></h1>
+        <p class="intro-lede">I'm Fabian Weiß — a game developer focused on gameplay systems, combat and movement mechanics, and prototypes that turn ideas into playable experiences.</p>
+        <div class="intro-actions">
+          <a class="button button-primary" href="#work">Explore project evidence <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="FabianW_CV.pdf" target="_blank" rel="noopener">View résumé <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <aside class="intro-note" aria-label="Technical focus">
+        <p class="note-label">CURRENT FOCUS</p>
+        <p class="focus-line">Gameplay systems</p>
+        <p class="focus-line">Combat & locomotion</p>
+        <p class="focus-line">Reusable Unreal tools</p>
+        <p class="focus-line">Multiplayer-aware prototypes</p>
+        <div class="note-rule"></div>
+        <p class="note-foot">Design-minded. Technically curious. Built by doing.</p>
+      </aside>
+    </section>
 
-    <!-- ***** Work ***** -->
+    <section class="projects-section" id="work">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">SELECTED WORK / 01—07</p>
+            <h2>Projects as <em>proof.</em></h2>
+          </div>
+          <p class="section-intro">A look at the systems, implementation challenges, and practical skills behind each project — from complete solo-developed games to focused, reusable assets.</p>
+        </div>
 
-    <section class="work" id="work">
-      <div class="row">
-        <h2>Projects</h2>
-        <div class="work__boxes">
-
-            <!-- Each div with the work__box class is a project. -->
-
-            <div class="work__box">
-                <div class="work__text">
-                    <h3>Bound for the West</h3>
-                    <p>
-                        Fantasy Action Role-Playing Game
-                    </p>
-                    <ul class="work__list">
-                        <li>Game Design and Combat System</li>
-                        <li>Integration of AAA Quality Assets</li>
-                        <li>Complex Boss Fight Behaviour</li>
-                        <li>Solo developed and published</li>
-                    </ul>
-
-                    <div class="work__links">
-                        <a href="https://50berry.itch.io/bound-for-the-west" target="_blank" class="link__text">
-                            See Project <span>&rarr;</span>
-                        </a>
-                        <a href="https://50berry.itch.io" title="My Itch profile" target="_blank">
-                            <img src="./images/itch.svg" class="work__code" alt="Itch.io">
-                        </a>
-                    </div>
-                </div>
-                <div class="work__image-box">
-                    <a href="https://50berry.itch.io/bound-for-the-west">
-                        <img src="./images/boundwest.png" class="work__image" alt="Bound for the West" />
-                    </a>
-                </div>
+        <div class="project-list">
+          <article class="project-card project-featured">
+            <div class="project-visual"><a href="https://50berry.itch.io/bound-for-the-west" target="_blank" rel="noopener" aria-label="Open Bound for the West project"><img src="./images/boundwest.png" alt="Bound for the West fantasy action RPG" loading="lazy"></a><span class="project-index">01 / GAME</span></div>
+            <div class="project-body">
+              <div class="project-meta"><span>SOLO DEVELOPMENT</span><span>GAMEPLAY · COMBAT</span></div>
+              <h3>Bound for the West</h3>
+              <p class="project-summary">A fantasy action role-playing game, developed and published independently. This project brings together combat design, game systems, asset integration, and complex boss encounters in one playable experience.</p>
+              <div class="evidence-block"><h4>Engineering evidence</h4><ul><li>Designed gameplay and combat systems as part of a cohesive player experience.</li><li>Integrated high-quality third-party assets into a unified game.</li><li>Developed behaviour for complex boss fights, requiring encounter logic and state-driven interactions.</li><li>Carried a game from development through publication as a solo creator.</li></ul></div>
+              <div class="tag-row"><span>Gameplay design</span><span>Combat systems</span><span>AI / boss behaviour</span><span>Asset integration</span><span>End-to-end ownership</span></div>
+              <a class="project-link" href="https://50berry.itch.io/bound-for-the-west" target="_blank" rel="noopener">Play / view project <span aria-hidden="true">↗</span></a>
             </div>
+          </article>
 
-            <div class="work__box">
-                <div class="work__text">
-                    <h3>Pet Inc. Zoo</h3>
-                    <p>
-                        A cozy Zoo Management Game
-                    </p>
-                    <ul class="work__list">
-                        <li>Game Design and Systems</li>
-                        <li>User Interface + Feedback</li>
-                        <li>Visuals, Sound, Environment</li>
-                        <li>Solo developed and published</li>
-                    </ul>
-
-                    <div class="work__links">
-                        <a href="https://50berry.itch.io/pet-inc-zoo" target="_blank" class="link__text">
-                            See Project <span>&rarr;</span>
-                        </a>
-                        <a href="https://50berry.itch.io" title="My Itch profile" target="_blank">
-                            <img src="./images/itch.svg" class="work__code" alt="Itch.io">
-                        </a>
-                    </div>
-                </div>
-                <div class="work__image-box">
-                    <a href="https://50berry.itch.io/pet-inc-zoo">
-                        <img src="./images/petinczoo.png" class="work__image" alt="Pet Inc. Zoo" />
-                    </a>
-                </div>
+          <article class="project-card">
+            <div class="project-visual"><a href="https://50berry.itch.io/pet-inc-zoo" target="_blank" rel="noopener" aria-label="Open Pet Inc. Zoo project"><img src="./images/petinczoo.png" alt="Pet Inc. Zoo management game" loading="lazy"></a><span class="project-index">02 / GAME</span></div>
+            <div class="project-body">
+              <div class="project-meta"><span>SOLO DEVELOPMENT</span><span>SYSTEMS · UX</span></div>
+              <h3>Pet Inc. Zoo</h3>
+              <p class="project-summary">A cozy zoo-management game that combines management-oriented gameplay with interface design, visual presentation, sound, and environment work.</p>
+              <div class="evidence-block"><h4>Engineering evidence</h4><ul><li>Designed interconnected gameplay systems for a management-game loop.</li><li>Built UI and feedback to communicate game state and player actions.</li><li>Worked across visuals, audio, and environment to deliver a consistent experience.</li><li>Developed and published the project independently.</li></ul></div>
+              <div class="tag-row"><span>Game systems</span><span>UI / UX feedback</span><span>Audio & environment</span><span>Solo delivery</span></div>
+              <a class="project-link" href="https://50berry.itch.io/pet-inc-zoo" target="_blank" rel="noopener">Play / view project <span aria-hidden="true">↗</span></a>
             </div>
+          </article>
 
-
-            <div class="work__box">
-                <div class="work__text">
-                    <h3>Grappling Hook Game Prototype</h3>
-                    <p>
-                        A game prototype featuring grappling hook style movement:
-                    </p>
-                    <ul class="work__list">
-                        <li>Physics based movement</li>
-                        <li>Character animations</li>
-                        <li>Visual effects</li>
-                        <li>Multiplayer ready</li>
-                    </ul>
-
-                    <div class="work__links">
-                        <a href="https://www.fab.com/listings/b761ed67-a470-4f41-b9b3-c312b92f56b0" target="_blank" class="link__text">
-                            See Project <span>&rarr;</span>
-                        </a>
-                        <a href="https://www.fab.com/sellers/50%20berry" title="My Fab profile" target="_blank">
-                            <img src="./images/fab.svg" class="work__code" alt="Fab">
-                        </a>
-                    </div>
-                </div>
-                <div class="work__image-box">
-                    <a href="https://www.fab.com/listings/b761ed67-a470-4f41-b9b3-c312b92f56b0">
-                        <img src="./images/grapplinghook_image.jpg" class="work__image" alt="Grappling Hook System" />
-                    </a>
-                </div>
+          <article class="project-card">
+            <div class="project-visual"><a href="https://www.fab.com/listings/b761ed67-a470-4f41-b9b3-c312b92f56b0" target="_blank" rel="noopener" aria-label="Open Grappling Hook Game Prototype"><img src="./images/grapplinghook_image.jpg" alt="Grappling hook movement prototype" loading="lazy"></a><span class="project-index">03 / PROTOTYPE</span></div>
+            <div class="project-body">
+              <div class="project-meta"><span>GAMEPLAY PROTOTYPING</span><span>MOVEMENT · NETWORKING</span></div>
+              <h3>Grappling Hook Game Prototype</h3>
+              <p class="project-summary">A focused gameplay prototype built around grappling-hook-style traversal, pairing physics-based movement with animation and visual effects.</p>
+              <div class="evidence-block"><h4>Engineering evidence</h4><ul><li>Explored physics-based character movement and traversal behaviour.</li><li>Connected movement with character animation and visual feedback.</li><li>Designed the prototype to be multiplayer-ready, keeping networked play in scope.</li></ul></div>
+              <div class="tag-row"><span>Physics-based movement</span><span>Animation integration</span><span>VFX</span><span>Multiplayer-aware design</span></div>
+              <a class="project-link" href="https://www.fab.com/listings/b761ed67-a470-4f41-b9b3-c312b92f56b0" target="_blank" rel="noopener">View asset / prototype <span aria-hidden="true">↗</span></a>
             </div>
-            
-            <div class="work__box">
-                <div class="work__text">
-                    <h3>Levitation Animations</h3>
-                    <p>
-                        Dynamic 8-way levitation locomotion including attacks, hit reacts and visual effects.
-                    </p>
+          </article>
 
-                    <div class="work__links">
-                        <a href="https://www.fab.com/listings/a72a9dc9-c2ab-41e7-82e2-eb482dbea83d" class="link__text">
-                            See Project <span>&rarr;</span>
-                        </a>
-                        <a href="https://www.fab.com/sellers/50%20berry">
-                            <img src="./images/fab.svg" class="work__code" title="My Fab profile" alt="Fab">
-                        </a>
-                    </div>
-                </div>
-                <div class="work__image-box">
-                    <a href="https://www.fab.com/listings/a72a9dc9-c2ab-41e7-82e2-eb482dbea83d">
-                        <img src="./images/levanims.png" class="work__image" alt="Item Consumable Animations" />
-                    </a>
-                </div>
+          <article class="project-card">
+            <div class="project-visual"><a href="https://www.fab.com/listings/a72a9dc9-c2ab-41e7-82e2-eb482dbea83d" target="_blank" rel="noopener" aria-label="Open Levitation Animations"><img src="./images/levanims.png" alt="Eight-direction levitation locomotion animations" loading="lazy"></a><span class="project-index">04 / ANIMATION</span></div>
+            <div class="project-body">
+              <div class="project-meta"><span>ANIMATION SYSTEMS</span><span>LOCOMOTION · COMBAT</span></div>
+              <h3>Levitation Animations</h3>
+              <p class="project-summary">A dynamic eight-direction levitation locomotion set that extends beyond movement to include attacks, hit reactions, and visual effects.</p>
+              <div class="evidence-block"><h4>Engineering evidence</h4><ul><li>Covered eight-way directional locomotion for a distinctive movement mode.</li><li>Considered movement, attack transitions, and hit reactions as related animation needs.</li><li>Packaged movement and combat animation content for use in Unreal Engine projects.</li></ul></div>
+              <div class="tag-row"><span>8-way locomotion</span><span>Combat animation</span><span>Hit reactions</span><span>VFX integration</span></div>
+              <a class="project-link" href="https://www.fab.com/listings/a72a9dc9-c2ab-41e7-82e2-eb482dbea83d" target="_blank" rel="noopener">View animation set <span aria-hidden="true">↗</span></a>
             </div>
+          </article>
 
-            <div class="work__box">
-                <div class="work__text">
-                    <h3>UI Feedback Essentials</h3>
-                    <p>
-                        Highlight Effects & Guide Elements for Unreal Engine UMG
-                    </p>
-                    <ul class="work__list">
-                        <li>Modular & Customizable Design</li>
-                        <li>Drag & Drop makes it easy even for Beginners</li>
-                        <li>Fits every project</li>
-                    </ul>
-
-                    <div class="work__links">
-                        <a href="https://www.fab.com/listings/c09f4b2c-c403-4899-979c-ee75c20c5485" target="_blank" class="link__text">
-                            See Project <span>&rarr;</span>
-                        </a>
-                        <a href="https://www.fab.com/sellers/50%20berry" title="My Fab profile" target="_blank">
-                            <img src="./images/fab.svg" class="work__code" alt="Fab">
-                        </a>
-                    </div>
-                </div>
-                <div class="work__image-box">
-                    <a href="https://www.fab.com/listings/c09f4b2c-c403-4899-979c-ee75c20c5485">
-                        <img src="./images/UIFeedback.png" class="work__image" alt="UI Feedback" />
-                    </a>
-                </div>
+          <article class="project-card">
+            <div class="project-visual"><a href="https://www.fab.com/listings/c09f4b2c-c403-4899-979c-ee75c20c5485" target="_blank" rel="noopener" aria-label="Open UI Feedback Essentials"><img src="./images/UIFeedback.png" alt="UI Feedback Essentials for Unreal Engine UMG" loading="lazy"></a><span class="project-index">05 / TOOL</span></div>
+            <div class="project-body">
+              <div class="project-meta"><span>UNREAL ENGINE UMG</span><span>INTERFACE · REUSE</span></div>
+              <h3>UI Feedback Essentials</h3>
+              <p class="project-summary">A modular set of highlight effects and guide elements for Unreal Motion Graphics (UMG), designed to help interfaces communicate emphasis and direction.</p>
+              <div class="evidence-block"><h4>Engineering evidence</h4><ul><li>Focused on modular, customizable UI feedback rather than a one-off interface.</li><li>Used a drag-and-drop-oriented workflow to lower the barrier to adoption.</li><li>Designed the components to be reusable across different projects.</li></ul></div>
+              <div class="tag-row"><span>Unreal Engine</span><span>UMG</span><span>Modular UI</span><span>Reusable components</span><span>Usability</span></div>
+              <a class="project-link" href="https://www.fab.com/listings/c09f4b2c-c403-4899-979c-ee75c20c5485" target="_blank" rel="noopener">View UI toolkit <span aria-hidden="true">↗</span></a>
             </div>
+          </article>
 
-            <div class="work__box">
-                <div class="work__text">
-                    <h3>Greatsword Combat Animations</h3>
-                    <p>
-                        Combat animations including multiple different chainable attacks.
-                    </p>
-
-                    <div class="work__links">
-                        <a href="https://www.fab.com/listings/3a361ce5-a67e-4e0e-820f-71c0e012791a" class="link__text">
-                            See Project <span>&rarr;</span>
-                        </a>
-                        <a href="https://www.fab.com/sellers/50%20berry">
-                            <img src="./images/fab.svg" class="work__code" title="My Fab profile" alt="Fab">
-                        </a>
-                    </div>
-                </div>
-                <div class="work__image-box">
-                    <a href="https://www.fab.com/listings/3a361ce5-a67e-4e0e-820f-71c0e012791a">
-                        <img src="./images/greatswordplaceholder_image.jpg" class="work__image" alt="Greatsword Combat Animations" />
-                    </a>
-                </div>
+          <article class="project-card">
+            <div class="project-visual"><a href="https://www.fab.com/listings/3a361ce5-a67e-4e0e-820f-71c0e012791a" target="_blank" rel="noopener" aria-label="Open Greatsword Combat Animations"><img src="./images/greatswordplaceholder_image.jpg" alt="Greatsword combat animation set" loading="lazy"></a><span class="project-index">06 / ANIMATION</span></div>
+            <div class="project-body">
+              <div class="project-meta"><span>COMBAT FEEL</span><span>ANIMATION · GAMEPLAY</span></div>
+              <h3>Greatsword Combat Animations</h3>
+              <p class="project-summary">A greatsword combat animation set featuring multiple attacks designed to chain together, supporting more continuous melee-combat sequences.</p>
+              <div class="evidence-block"><h4>Engineering evidence</h4><ul><li>Created a collection of related combat animations rather than isolated actions.</li><li>Focused on chainable attacks, an important building block for responsive combo-based combat.</li><li>Produced reusable animation content for game projects.</li></ul></div>
+              <div class="tag-row"><span>Melee combat</span><span>Attack chaining</span><span>Animation workflows</span><span>Reusable content</span></div>
+              <a class="project-link" href="https://www.fab.com/listings/3a361ce5-a67e-4e0e-820f-71c0e012791a" target="_blank" rel="noopener">View animation set <span aria-hidden="true">↗</span></a>
             </div>
+          </article>
 
-            <div class="work__box">
-                <div class="work__text">
-                    <h3>Item & Consumable Animations</h3>
-                    <p>
-                        A wide variety of generic item usage animations.
-                    </p>
-
-                    <div class="work__links">
-                        <a href="https://www.fab.com/listings/99f9ef50-3fe6-4851-8611-0064928780e1" class="link__text">
-                            See Project <span>&rarr;</span>
-                        </a>
-                        <a href="https://www.fab.com/sellers/50%20berry">
-                            <img src="./images/fab.svg" class="work__code" title="My Fab profile" alt="Fab">
-                        </a>
-                    </div>
-                </div>
-                <div class="work__image-box">
-                    <a href="https://www.fab.com/listings/99f9ef50-3fe6-4851-8611-0064928780e1">
-                        <img src="./images/itemconsumable_image.jpg" class="work__image" alt="Item Consumable Animations" />
-                    </a>
-                </div>
+          <article class="project-card">
+            <div class="project-visual"><a href="https://www.fab.com/listings/99f9ef50-3fe6-4851-8611-0064928780e1" target="_blank" rel="noopener" aria-label="Open Item and Consumable Animations"><img src="./images/itemconsumable_image.jpg" alt="Generic item and consumable usage animations" loading="lazy"></a><span class="project-index">07 / ANIMATION</span></div>
+            <div class="project-body">
+              <div class="project-meta"><span>GAMEPLAY CONTENT</span><span>ITEMS · INTERACTION</span></div>
+              <h3>Item &amp; Consumable Animations</h3>
+              <p class="project-summary">A broad collection of generic item-use animations to support common interactions with items and consumables in gameplay.</p>
+              <div class="evidence-block"><h4>Engineering evidence</h4><ul><li>Covered a range of item-use actions for different gameplay contexts.</li><li>Created generic animation content intended for reuse rather than a single bespoke scene.</li><li>Supported the player-feedback layer around item and consumable interactions.</li></ul></div>
+              <div class="tag-row"><span>Item interaction</span><span>Animation content</span><span>Reusable assets</span><span>Gameplay feedback</span></div>
+              <a class="project-link" href="https://www.fab.com/listings/99f9ef50-3fe6-4851-8611-0064928780e1" target="_blank" rel="noopener">View animation set <span aria-hidden="true">↗</span></a>
             </div>
+          </article>
+        </div>
+        <p class="project-disclaimer">Project descriptions focus on work and capabilities represented in the published portfolio. Technical details are intentionally limited to what is evidenced there.</p>
+      </div>
+    </section>
+
+    <section class="approach-section" id="approach">
+      <div class="shell approach-grid">
+        <div><p class="eyebrow">HOW I WORK</p><h2>From idea to<br><em>playable system.</em></h2></div>
+        <div class="approach-items">
+          <article><span class="approach-number">01</span><div><h3>Think in systems</h3><p>Connect mechanics, feedback, animation, and interface into a player-facing whole — not just a list of features.</p></div></article>
+          <article><span class="approach-number">02</span><div><h3>Prototype the hard part</h3><p>Use focused prototypes to explore movement, combat behaviour, and interaction before those ideas need to scale.</p></div></article>
+          <article><span class="approach-number">03</span><div><h3>Build for reuse</h3><p>Turn focused work into modular tools, animation sets, and components that can be applied beyond one project.</p></div></article>
+          <article><span class="approach-number">04</span><div><h3>Own the outcome</h3><p>Independent development and publishing experience means working across implementation, presentation, and delivery.</p></div></article>
         </div>
       </div>
     </section>
 
-    <!-- ***** Clients ***** -->
-
-    <!--
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+    <section class="about-section" id="about">
+      <div class="shell about-grid">
+        <div><p class="eyebrow">A LITTLE CONTEXT</p><h2>Creative thinking.<br><em>Technical craft.</em></h2></div>
+        <div class="about-copy">
+          <p class="about-lede">I'm a game designer and Unreal Engine developer with over five years of hands-on experience in gameplay systems, multiplayer mechanics, and game prototypes.</p>
+          <p>Alongside developing and publishing my own games, I've created Unreal Engine marketplace assets and focused prototypes. I enjoy translating creative ideas into functional systems — especially where movement, combat, animation, and player feedback meet.</p>
+          <div class="about-links"><a class="button button-primary" href="FabianW_CV.pdf" target="_blank" rel="noopener">Read my résumé <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/50berry/" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a><a class="text-link" href="https://www.fab.com/sellers/50%20berry" target="_blank" rel="noopener">Fab profile <span aria-hidden="true">↗</span></a></div>
         </div>
       </div>
     </section>
-    -->
 
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Creative and technically skilled game designer and Unreal Engine developer with 
-                over <b>5 years</b> of hands-on experience in <b>gameplay systems</b>, <b>multiplayer</b> 
-                mechanics, and <b>game prototypes</b>. Marketplace creator with published Unreal 
-                Engine assets and prototypes. Passionate about designing engaging gameplay 
-                experiences and translating creative ideas into functional game systems. 
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="FabianW_CV.pdf" class="btn" target="_blank">My Resume</a>
-          </div>
-
-          <!-- Photo -->
-          <div class="about__photo-container">
-            <img class="about__photo" src="./images/myself.png" alt="" />
-          </div>
-          
-
-        </div>
+    <section class="contact-section" id="contact">
+      <div class="shell contact-inner">
+        <p class="eyebrow">HAVE A ROLE OR PROJECT IN MIND?</p>
+        <h2>Let's talk about<br><em>what we can build.</em></h2>
+        <p>For opportunities in game development, gameplay programming, or Unreal Engine work, feel free to get in touch.</p>
+        <a class="button button-primary" href="mailto:wfabian.dev@gmail.com">wfabian.dev@gmail.com <span aria-hidden="true">↗</span></a>
       </div>
     </section>
   </main>
 
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Contact</h2>
-      <div class="contact__info">
-        <p>
-          If you are interested in contacting me, feel free to do so 
-          via e-mail or message me on a platform of your choice: links below.
-          I will do my best to respond back as fast as possible.
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:wfabian.dev@gmail.com" class="btn">wfabian.dev@gmail.com</a>
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <a class="wordmark" href="#top" aria-label="Back to top">FW<span>.</span></a>
+      <p>Fabian Weiß <span>·</span> Game development &amp; technical projects</p>
+      <div class="social-links" aria-label="Social profiles">
+        <a href="https://www.linkedin.com/in/wfabiandev/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="https://www.youtube.com/@50berryDev" target="_blank" rel="noopener">YouTube ↗</a>
+        <a href="https://github.com/50berry/" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://x.com/50berryX/" target="_blank" rel="noopener">X ↗</a>
       </div>
     </div>
-  </section>
-
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <ul class="footer__social-links">
-
-
-
-
-        <!--   
-        <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        -->
-         
-        <!-- Epic Games -->
-        <li class="footer__social-link-item">
-          <a href="https://www.fab.com/sellers/50%20berry" title="Link to Fab Profile">
-            <img src="./images/fab.svg" class="footer__social-image" alt="Fab">
-          </a>
-        </li>
-        
-        <!-- Linked In -->
-        <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/wfabiandev/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-
-         <!-- YouTube -->
-        <li class="footer__social-link-item">
-          <a href="https://www.youtube.com/@50berryDev" title="Link to YouTube Profile">
-            <img src="./images/youtube_svg.svg" class="footer__social-image" alt="YouTube">
-          </a>
-        </li>
-
-        <!-- GitHub -->
-        <li class="footer__social-link-item">
-          <a href="https://github.com/50berry/" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-
-        <!-- TWITTER -->
-          <li class="footer__social-link-item">
-             <a href="https://x.com/50berryX/" title="Link to X Profile">
-            <img src="./images/x_svg.svg" class="footer__social-image" alt="X">
-          </a>
-        </li>
-
-
-
-
-      </ul>
-    </div>
   </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
   <script src="./index.js"></script>
 </body>
-
 </html>
